@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+    <body>
+       <div>
+         <h1>formulaire de publication</h1> 
+           <form action="upload.php" method="post" enctype="multipart/form-data">
+                <p>
+                    <label for="titre de publication" class="lab">titre de publication</label>
+                    <input type="text"  name="titre_publication" maxlength="100" height="">
+                </p> 
+   
+                <p>
+                    <label for="type de publication" class="lab">type de publication</label>
+                    <select type="text" name="type_publication" id="type_publication" style="color: rgb(234, 54, 54);" >
+                    <option></option>
+                    <option>restaurant</option>
+                    <option>recette</option>
+                    <option>retour d'experience</option>
+                    <option>conseil</option>
+                    </select>
+                </p>
+   
+                <p>
+                    <label for="corps du message" class="lab">description</label>
+                    <textarea type="" name="corps_message" id="corps_message" rows="5" cols="20" maxlength="500"></textarea>
+                </p>
+   
+       
+                <p>
+                    <label for="image" class="lab">image</label>
+                    <input type="file" name="image" accept="all image" id="image" maxlength="60">
+                </p>
+   
+                <p>
+                    <button name=submit>publier</button>
+                </p>
+           </form>
+       </div> 
+    </body>
+</html>

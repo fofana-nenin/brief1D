@@ -1,0 +1,54 @@
+/*div h1,form{
+    margin: auto;
+}
+div{
+    width: 70%;
+    margin: auto;
+}
+div h1{
+    text-align: center;
+}
+form{
+    padding: 10%;
+    padding-left: 20%;
+    background: turquoise;
+    border-radius: 20px 20px;
+}
+.lab{
+    display: inline-block;
+    width: 30%;
+    font-size: 130%;
+    font-weight: bold;
+}
+input,select{
+    display: inline-block;
+    width: 50%;
+    font-size: 130%;
+    box-shadow: rgb(78, 116, 94);
+}
+button{
+    margin-left: 40%;
+}
+/* form{
+    width: 400px; 
+    height:500px ;
+    background-color: aquamarine; 
+    margin-left: 350px;  
+}
+.taille{
+    width: 300px; 
+    height:40px ;
+border-radius: 5px;
+display: flex;
+}
+#commentaire{
+    width: 300px; ;
+    height:40px ;
+border-radius: 5px;
+} */
+.G{
+    color: rgb(131, 191, 228); 
+}
+
+   
+  
